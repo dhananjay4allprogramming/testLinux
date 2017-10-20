@@ -20,4 +20,12 @@
 	git push -u origin master
 
 4. again add another file
+	git add creatingStapes
+	git status
+	git commit -m "first commit"
+	git push
+	userName
+	password
+
+5. update file
 	
