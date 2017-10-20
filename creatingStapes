@@ -1,0 +1,23 @@
+1.git install on kali 
+
+ 	add-apt-repository ppa:git-core/ppa 
+ 	apt update;
+	apt install git
+
+2.configure/colone with terminal
+
+	git config --global user.name "dhananjay4allprogramming"
+	git config --global user.email "dhananjay0292@gmail.com"
+
+	//create a directory in linux desktop go in side the directory
+
+3. for first time only 
+	echo "# testLinux" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/dhananjay4allprogramming/testLinux.git
+	git push -u origin master
+
+4. again add another file
+	
