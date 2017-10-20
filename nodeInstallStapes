@@ -1,0 +1,7 @@
+1. sudo apt-get install python g++ make checkinstall fakeroot
+2. src=$(mktemp -d) && cd $src
+3. wget -N http://nodejs.org/dist/node-latest.tar.gz
+4. tar xzvf node-latest.tar.gz && cd node-v*
+5. ./configure
+6. sudo fakeroot checkinstall -y --install=no --pkgversion $(echo $(pwd) | sed -n -re's/.+node-v(.+)$/\1/p') make -j$(($(nproc)+1)) install
+7. sudo dpkg -i node_*
