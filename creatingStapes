@@ -23,9 +23,16 @@
 	git add creatingStapes
 	git status
 	git commit -m "first commit"
+	git remote add origin https://github.com/dhananjay4allprogramming/testLinux.git
 	git push
 	userName
 	password
 
 5. update file
+	git add creatingStapes
+	git status
+	git commit -m "second commit"
+	git push
+	userName
+	password
 	
